@@ -46,8 +46,8 @@ simulate_sera_data<-function(strains,inf.years.sera=c(1980:2015),time.series.in=
   set.seed(seedK)
   
   # theta guide:
-  # error = probability negative given infection (i.e. 1 - sensitivity)
-  # sigma = probability positive from cross-reaction (i.e. 1 - specificity)
+  # error = probability negative given homotypic infection (i.e. 1 - sensitivity)
+  # sigma = probability positive given heterotypic infection (i.e. 1 - specificity)
   # - - - - - - 
   # Set year of birth - sample uniformly
   #age.yr=sort(sample(1:50,n_part,replace = TRUE))

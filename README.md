@@ -2,9 +2,11 @@
 
 ### Summary
 
-This repository contains code used to generate the figure in:
+This repository contains code used to generate the figures in:
 
 Kucharski AJ, Riley S. Reducing uncertainty about flavivirus infections. Lancet Infect Dis. 2016
+
+Assay sensitivity (defined as the probability of avoiding false-negative, given previous infection with a homotypic virus) is assumed to be 95% by default. Specificity (ie. probability of avoiding false-positive, given heterotypic infection) is assumed to be 70%.
 
 
 ### Guide to files
