@@ -17,6 +17,9 @@ rm(list=ls(all=TRUE))
 setwd("~/Documents/reducing-uncertainty/model_code/")
 source("simulation_sera_model.R")
 
+dir.create(file.path(getwd(), "posterior_runs"))
+dir.create(file.path(getwd(), "plot_simulations"))
+
 # - - - - - - - - - - - - - - - - - 
 # Simulate serology for ZIKV/DENV
 
