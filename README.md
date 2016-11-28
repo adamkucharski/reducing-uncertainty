@@ -1,6 +1,5 @@
-# reducing-uncertainty
+# Reducing uncertainty about flavivirus infections using serological assays and novel analytics
 
-### Summary
 
 This repository contains code used to generate the figures in:
 
